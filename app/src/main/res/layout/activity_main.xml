@@ -7,4 +7,9 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:orientation="vertical">
 
+    <TextView
+            android:text="Rommel Rico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textAlignment="center"
+            android:textSize="30sp"/>
 </LinearLayout>
