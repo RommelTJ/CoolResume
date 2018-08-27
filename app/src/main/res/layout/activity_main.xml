@@ -16,4 +16,16 @@
             android:layout_width="match_parent"
             android:layout_height="200dp" app:srcCompat="@android:color/holo_green_light"
             android:id="@+id/imageView"/>
+    <Button
+            android:text="Work History"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+    <Button
+            android:text="Call Rommel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button2"/>
+    <Button
+            android:text="Email Rommel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button3"/>
 </LinearLayout>
