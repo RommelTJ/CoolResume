@@ -14,8 +14,8 @@
             android:textSize="30sp"/>
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp" app:srcCompat="@android:color/holo_green_light"
-            android:id="@+id/imageView" android:layout_marginHorizontal="20dp"/>
+            android:layout_height="200dp" app:srcCompat="@drawable/me"
+            android:id="@+id/imageView" android:layout_marginHorizontal="20dp" android:scaleType="fitCenter"/>
     <Button
             android:text="Work History"
             android:layout_width="match_parent"
