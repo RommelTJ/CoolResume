@@ -19,16 +19,17 @@
     <Button
             android:text="Work History"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginVertical="10dp"
+            android:layout_height="wrap_content" android:id="@+id/workHistoryButton"
+            android:layout_marginVertical="10dp"
             android:layout_marginHorizontal="20dp"/>
     <Button
             android:text="Call Rommel"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button2" android:layout_marginVertical="10dp"
+            android:layout_height="wrap_content" android:id="@+id/callButton" android:layout_marginVertical="10dp"
             android:layout_marginHorizontal="20dp"/>
     <Button
             android:text="Email Rommel"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button3" android:layout_marginVertical="10dp"
+            android:layout_height="wrap_content" android:id="@+id/emailButton" android:layout_marginVertical="10dp"
             android:layout_marginHorizontal="20dp"/>
 </LinearLayout>
