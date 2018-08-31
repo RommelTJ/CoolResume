@@ -1,6 +1,6 @@
 # CoolResume
 
-Version: 1.0.0 - 26 Aug 2018
+Version: 1.0.0 - 30 Aug 2018
 
 ## Description
 
