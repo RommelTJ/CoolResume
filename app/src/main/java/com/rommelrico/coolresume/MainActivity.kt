@@ -27,7 +27,12 @@ class MainActivity : AppCompatActivity() {
 
         var emailButton = findViewById<Button>(R.id.emailButton)
         emailButton.setOnClickListener {
-            println("Email")
+            var emailIntent = Intent(Intent.ACTION_SEND)
+            emailIntent.setType("plain/text")
+            emailIntent.putExtra(Intent.EXTRA_EMAIL, "rommeltj@gmail.com")
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Nice Resume :)")
+            emailIntent.putExtra(Intent.EXTRA_TEXT, "I really enjoyed your resume...")
+            startActivity(emailIntent)
         }
 
 
